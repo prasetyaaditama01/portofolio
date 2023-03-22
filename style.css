@@ -353,6 +353,9 @@ section .button button:hover{
   color: #fff;
 }
 /* My Services CSS */
+.services{
+  background: #F0F8FF;
+}
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
@@ -363,7 +366,7 @@ section .button button:hover{
   width: calc(100% / 3 - 20px);
   text-align: center;
   border-radius: 12px;
-  padding: 30px 10px;
+  padding: 30px 0px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
@@ -399,7 +402,7 @@ section .button button:hover{
 }
 /* Contact Me CSS */
 .contact{
-  background: #F0F8FF;
+  background: #fff;
 }
 .contact .content{
   margin: 0 auto;
@@ -532,7 +535,6 @@ footer .text span a:hover{
     align-items: center;
     width: 100%;
   }
-    }
   .sertifikat .boxes .box{
     margin: 20px 0;
     width: 100%;
